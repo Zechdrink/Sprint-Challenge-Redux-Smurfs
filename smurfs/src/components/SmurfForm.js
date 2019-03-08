@@ -38,7 +38,7 @@ class SmurfForm extends Component {
 
   render() {
     return (
-      <div className="SmurfForm">
+      <div>
         <form onSubmit={this.addSmurf}>
           <h1>Don't forget to add YOUR favorite SMURF HERE!!!</h1>
           <input
